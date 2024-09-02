@@ -97,4 +97,3 @@ This is a basic Flask project template consisting of:
 
     print(f"Flask project template created in '{project_dir}'")
 
-generate_flask_template()
