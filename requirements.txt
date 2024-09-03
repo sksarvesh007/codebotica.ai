@@ -1,1 +1,10 @@
 Flask==3.0.3
+langchain_community
+tiktoken
+langchain-cohere 
+langchainhub 
+chromadb 
+langchain 
+langgraph  
+tavily-python
+langchain_groq
