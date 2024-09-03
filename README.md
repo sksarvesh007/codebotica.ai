@@ -4,7 +4,9 @@
 
 This project demonstrates a basic workflow using **LangGraph**, where an LLM (Language Learning Model) assists in generating a project template based on user input. The workflow also ensures that the generated template and code files are valid, free from hallucinations, and optimized to meet user requirements.
 
-![1725277439138](image/README/1725277439138.png)
+![1725362661205](image/README/1725362661205.png)
+
+![1725362767495](image/README/1725362767495.png)
 
 ## Workflow Process
 
