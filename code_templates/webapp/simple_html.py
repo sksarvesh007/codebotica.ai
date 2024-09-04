@@ -1,7 +1,6 @@
 import os
-def simple_html_template():
-    with open("root_dir.txt", "r") as file:
-        project_dir = file.read()
+def simple_html_template(proj_name):
+    project_dir = proj_name
     index_html = os.path.join(project_dir, "index.html")
     style_css = os.path.join(project_dir, "style.css")
     main_js = os.path.join(project_dir, "main.js")
