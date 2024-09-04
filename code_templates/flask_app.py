@@ -1,7 +1,8 @@
 import os
 
 def generate_flask_template():
-    project_dir = "flask_app_template"
+    with open("root_dir.txt", "r") as file:
+        project_dir = file.read()
     app_dir = os.path.join(project_dir, "app")
     static_dir = os.path.join(app_dir, "static")
     templates_dir = os.path.join(app_dir, "templates")

@@ -1,6 +1,7 @@
 import os 
 def react_js_app_template():
-    project_dir = "react_js_app_template"
+    with open("root_dir.txt", "r") as file:
+        project_dir = file.read()
     public_dir = os.path.join(project_dir, "public")
     src_dir = os.path.join(project_dir, "src")
     asset_dir = os.path.join(src_dir, "assets")
@@ -273,7 +274,7 @@ def react_js_app_template():
     </html>
     """
     
-    with open("code_templates/package_lock.txt", "r") as file:
+    with open("code_templates/webapp/package_lock.txt", "r") as file:
         package_lock_cont = file.read()
     package_cont = """{
     "name": "myapp",
