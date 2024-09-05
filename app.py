@@ -5,4 +5,4 @@ from code_templates.webapp.react_ts_template import react_ts_app_template
 simple_html_template("lmao")
 generate_flask_template("lmao")
 react_js_app_template("lmao")
-react_ts_app_template("lmao")
+react_ts_app_template("finzo")
